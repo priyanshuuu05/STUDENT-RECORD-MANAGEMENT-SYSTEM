@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers Profile</title>
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #2b8e2e;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #e1f7e1;
+            transform: scale(1.02);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        @media screen and (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+
+            button {
+                width: 100%;
+                font-size: 18px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TEACHERS PROFILE</h1>
+    </header>
+
+    <div class="container">
+        <h2>INSTITUTION TEACHERS RECORDS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>FACULTY ID</th>
+                    <th>COURSE NAME</th>
+                    <th>EXPERIENCE</th>
+                    <th>CLUB</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ARUN KUMAR</td>
+                    <td>ARUN@123</td>
+                    <td>arunkumar@gmail.com</td>
+                    <td>INTERNET & WEB TECH</td>
+                    <td>DEVELOPMENT</td>
+                </tr>
+                <tr>
+                    <td>KHEMCHAND SHAKYAWAR</td>
+                    <td>KHEMCHAND@123</td>
+                    <td>khemchand@gmail.com</td>
+                    <td>INTERNET & WEB TECH</td>
+                    <td>MICRO PROJECT</td>
+                </tr>
+                <tr>
+                    <td>MIR SHAHNAWAZ</td>
+                    <td>MIR@123</td>
+                    <td>mirshahnawaz@gmail.com</td>
+                    <td>PROGRAMMING & PROBLEM SOLVING</td>
+                    <td>BANDISH</td>
+                </tr>
+                <tr>
+                    <td>HARDEV SINGH PAL</td>
+                    <td>HARDEV@123</td>
+                    <td>hardevsingh@gmail.com</td>
+                    <td>DIGITAL LOGIC DESIGN</td>
+                    <td>RECRUITMENT</td>
+                </tr>
+                <tr>
+                    <td>ABHISHEK BHAT</td>
+                    <td>ABHISHEK@123</td>
+                    <td>ABHISHEK@gmail.com</td>
+                    <td>DATA SCIENCE</td>
+                    <td>ACM</td>
+                </tr>
+                <tr>
+                    <td>ATUL KUMAR RAY</td>
+                    <td>ATUL@5656</td>
+                    <td>atulkmar@gmail.com</td>
+                    <td>MATHS</td>
+                    <td>COUNTS AND COUNTS</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button>Add New Faculty</button>
+    </div>
+</body>
+</html>

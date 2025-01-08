@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Students Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            margin: 0;
+            padding: 20px;
+            background-color: #ff0000;
+            color: #fff;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #000;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #ff0000;
+            color: white;
+        }
+
+        .fail,
+        .debarred {
+            background-color: #ffcccc;
+            color: #ff3333;
+        }
+
+        .debarred {
+            background-color: #ff6666;
+            color: white;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+            transform: scale(1.02);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+            position: relative;
+            
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>GRADES & ASSIGNMENTS</h1>
+    </header>
+
+    <div class="container" style="padding: 20px;">
+        <h2>Your Performance Glance of This Week</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll Number</th>
+                    <th>Maths</th>
+                    <th>C++</th>
+                    <th>IWT</th>
+                    <th>DLD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PRIYANSHU PANIGRAHI</td>
+                    <td>49</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>99</td>
+                    <td>89</td>
+                </tr>
+                <tr class="fail">
+                    <td>SAMARTH AGRAWAL</td>
+                    <td>57</td>
+                    <td>FAIL</td>
+                    <td>20</td>
+                    <td>18</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>ANIMESH SINGH</td>
+                    <td>11</td>
+                    <td>95</td>
+                    <td>90</td>
+                    <td>99</td>
+                    <td>89</td>
+                </tr>
+                <tr class="fail">
+                    <td>NAMYA KALANI</td>
+                    <td>41</td>
+                    <td>FAIL</td>
+                    <td>50</td>
+                    <td>FAIL</td>
+                    <td>50</td>
+                </tr>
+                <tr class="debarred">
+                    <td>VISHAKHA SINGH</td>
+                    <td>73</td>
+                    <td>DEBARD</td>
+                    <td>DEBARD</td>
+                    <td>DEBARD</td>
+                    <td>DEBARD</td>
+                </tr>
+                <tr>
+                    <td>MUKUL SINGH</td>
+                    <td>40</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>FAIL</td>
+                    <td>14</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Overall Grade of This Semester</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll Number</th>
+                    <th>Overall Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PRIYANSHU PANIGRAHI</td>
+                    <td>49</td>
+                    <td>A+++</td>
+                </tr>
+                <tr class="fail">
+                    <td>SAMARTH AGRAWAL</td>
+                    <td>57</td>
+                    <td>FAIL</td>
+                </tr>
+                <tr>
+                    <td>ANIMESH SINGH</td>
+                    <td>11</td>
+                    <td>A+++</td>
+                </tr>
+                <tr class="fail">
+                    <td>NAMYA KALANI</td>
+                    <td>41</td>
+                    <td>FAIL</td>
+                </tr>
+                <tr class="debarred">
+                    <td>VISHAKHA SINGH</td>
+                    <td>73</td>
+                    <td>DEBARD</td>
+                </tr>
+                <tr>
+                    <td>MUKUL SINGH</td>
+                    <td>40</td>
+                    <td>FAIL</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button>Download Report</button>
+    </div>
+</body>
+
+</html>

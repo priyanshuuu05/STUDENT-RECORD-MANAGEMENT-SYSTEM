@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Timetable</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #000dff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        h1.center {
+            font-size: 28px;
+            color: #000;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .time {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .time img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .time img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TIMETABLE</h1>
+    </header>
+
+    <h1 class="center">TIMETABLE OF THIS WEEK IS AS FOLLOWS:</h1>
+
+    <div class="time">
+        <img src="timetable.png" alt="Timetable">
+    </div>
+
+</body>
+</html>
